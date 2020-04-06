@@ -1,11 +1,316 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    INIT
-</body>
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <div class="header__logo">
+            <img src="./img/Ukraine_logotype_white.svg" alt="Global Compact" />
+          </div>
+          <ul class="header__nav">
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Приєднатися</a></li>
+            <li><a href="#">Актуальне</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+          <div class="header__btn">Приєднатися</div>
+        </nav>
+      </div>
+    </header>
+    <section class="mainScreen">
+      <div class="container">
+        <div class="mainScreen__wrap">
+          <div class="mainScreen__content">
+            <h1>Приєднуйтеся до нас!</h1>
+            <p>
+              Мережа Глобального Договору в Україні є офіційним представником
+              глобальної мережі UN Global Compact – ініціативи ООН, яка поєднує
+              ООН та компанії по всьому світу
+            </p>
+            <a href="" class="mainScreen__btn">Детальніше</a>
+            <div class="mainScreen__nums">
+              <div class="mainScreen__num">
+                <span>9,531</span>
+                <p>Компаній</p>
+              </div>
+              <div class="mainScreen__num">
+                <span>162</span>
+                <p>Країн</p>
+              </div>
+              <div class="mainScreen__num">
+                <span>47,121</span>
+                <p>Публічних звітів</p>
+              </div>
+            </div>
+          </div>
+          <div class="mainScreen__slider">
+            <div class="mainScreen__slide"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="defaultSection projects">
+      <div class="container">
+        <div class="info">
+          <h2>Проекти</h2>
+          <a href="#" class="btn">Всi проекти</a>
+        </div>
+        <div class="projects__content">
+          <div class="projects__column">
+            <a href="#" class="projects__card projects__card_pink">
+              <div class="projects__more">Читати більше</div>
+              <div class="projects__icon">
+                <img src="./img/p1.svg" alt="" />
+              </div>
+              <h3 class="projects__title">
+                Partnership for Sustainability Campaign
+              </h3>
+              <p class="projects__text">
+                Щороку ми збираємо кейси партнерських проєктів між різними
+                групами стейкхолдерів для досягнення цілей сталого розвитку.
+              </p>
+            </a>
+          </div>
+          <div class="projects__column projects__column_multi">
+            <a
+              href="#"
+              class="projects__card projects__card_violet projects__card_small"
+            >
+              <div class="projects__icon">
+                <img src="./img/p2.svg" alt="" />
+              </div>
+              <h3 class="projects__title">
+                Target Gender Equality
+              </h3>
+              <p class="projects__text">
+                Підтримка учасників Глобального договору ООН у встановленні
+                гендерної рівності та виконанні амбітних корпоративних цілей з
+                підвищення лідерства жінок у бізнесі.
+              </p>
+            </a>
+            <a
+              href="#"
+              class="projects__card projects__card_green projects__card_small"
+            >
+              <div class="projects__icon">
+                <img src="./img/p3.svg" alt="" />
+              </div>
+              <h3 class="projects__title">
+                SDG ambition
+              </h3>
+              <p class="projects__text">
+                Введіть 10 принципів та Цілі сталого розвитку у
+                бізнес-стратегії, операційну діяльність та взаємовідносини зі
+                стейкхолдерами
+              </p>
+            </a>
+          </div>
+          <div class="projects__column">
+            <a href="#" class="projects__card projects__card_blue">
+              <div class="projects__more">Читати більше</div>
+              <div class="projects__icon">
+                <img src="./img/p4.svg" alt="" />
+              </div>
+              <h3 class="projects__title">
+                Anti-Corruption Collective Action
+              </h3>
+              <p class="projects__text">
+                Протягом 2020-2023 у рамках третього раунду Siemens Integrity
+                Initiative Глобальний договір ООН в Україні працюватиме над
+                впровадженням колективних дій проти корупції.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__content">
+        <h2>Підписатися на новини</h2>
+        <form action="#">
+          <input type="email" />
+          <button type="submit">Підписатись</button>
+        </form>
+      </div>
+      <div class="subscribe__logo">
+        <img src="./img/Ukraine_logotype_white.svg" alt="" />
+      </div>
+    </section>
+    <section class="defaultSection news">
+      <div class="container">
+        <div class="info">
+          <h2>Новини</h2>
+          <a href="#" class="btn">Всi новини</a>
+        </div>
+        <div class="defaultSection__items">
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3>ГД ООН обрав Наглядову раду</h3>
+          </div>
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3>ГД ООН став партнером з розвитку форуму Level UP Ukraine</h3>
+          </div>
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3>ГД ООН обрав Наглядову раду</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="defaultSection announcement">
+      <div class="container">
+        <div class="info">
+          <h2>Анонс</h2>
+          <a href="#" class="btn">Всi анонси</a>
+        </div>
+        <div class="defaultSection__items">
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask2.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3 class="announcement__title">
+              Стартує Освітня Програма для жителів Донецької та Луганської
+              областей «IT nation
+            </h3>
+          </div>
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3 class="announcement__title">
+              Стартує Освітня Програма для жителів Донецької та Луганської
+              областей «IT nation»
+            </h3>
+          </div>
+          <div class="defaultSection__item">
+            <div class="defaultSection__pic">
+              <img src="./img/mask2.jpg" alt="" />
+            </div>
+            <div class="defaultSection__date">
+              <img src="./img/calendar-month.svg" alt="" />
+              <span>03.04.2020</span>
+            </div>
+            <h3 class="announcement__title">
+              ГД ООН Стартує Освітня Програма для жителів Донецької та
+              Луганської областей «IT nation»
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="join">
+      <h2>Приєднання до Мережі Глобального договору в Україні</h2>
+      <a href="#" class="btn">Приєднатися</a>
+    </section>
+    <section class="defaultSection participants">
+      <div class="container">
+        <div class="info">
+          <h2>Участники</h2>
+          <a href="#" class="btn">Всi участники</a>
+        </div>
+        <div class="participants__items">
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/astarta-kyiv.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img
+                src="./img/na-pravoberezhe-krasnoyarska-vtoroy-gipermarket-metro-otkroetsya-do-kontsa-goda.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+          <div class="participants__item">
+            <div class="pic">
+              <img src="./img/alfa-bank-vrg-by-790-x-400.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__logo">
+            <img src="./img/Ukraine_logotype_white.svg" alt="" />
+          </div>
+          <p>
+            Мережа Глобального Договору в Україні є офіційним представником
+            глобальної мережі UN Global Compact – ініціативи ООН, яка поєднує
+            ООН та компанії по всьому світу
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social">в</a>
+            <a href="#" class="footer__social">в</a>
+            <a href="#" class="footer__social">в</a>
+            <a href="#" class="footer__social">в</a>
+          </div>
+        </div>
+        <p class="footer__credits">
+          © Copyright 2020 Global Compact Network Ukraine
+        </p>
+      </div>
+    </footer>
+    <script src="./libs/jquery-3.4.1.min.js"></script>
+  </body>
 </html>
