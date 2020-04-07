@@ -20,6 +20,19 @@ body {
 }
 h2 {
   font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  color: #7c7c7c;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+}
+h3 {
+  font-size: 24px;
+  color: #494949;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -149,6 +162,32 @@ a {
       margin-right: 30px;
       display: flex;
       justify-content: center;
+    }
+  }
+}
+.services {
+  background: #fff;
+  padding: 100px 0;
+  .services__title {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 2px;
+      top: 65px;
+      background: rgba(0, 0, 0, 0.15);
+      background-color: #2eb0ec;
+    }
+  }
+  .services__item {
+    margin-top: 80px;
+    .servises__subTitle {
+      font-size: 18px;
+      color: #494949;
+      font-weight: 700;
     }
   }
 }
