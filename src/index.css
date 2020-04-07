@@ -22,6 +22,10 @@ body {
   padding: 0 230px;
 }
 
+h2 {
+  font-family: "Roboto Slab", serif;
+}
+
 ul {
   list-style: none;
 }
