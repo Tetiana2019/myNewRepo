@@ -21,6 +21,7 @@ body {
 h2 {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
+  line-height: 24px;
   color: #7c7c7c;
   font-family: "Roboto Slab";
   font-weight: 400;
@@ -28,6 +29,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
+  letter-spacing: 2px;
   color: #494949;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
@@ -132,6 +134,7 @@ a {
     font-weight: 500;
     margin-top: 40px;
     margin-bottom: 80px;
+    line-height: 40px;
   }
   .header__btns {
     display: flex;
@@ -177,17 +180,39 @@ a {
       transform: translateX(-50%);
       width: 30px;
       height: 2px;
-      top: 65px;
+      top: 75px;
       background: rgba(0, 0, 0, 0.15);
       background-color: #2eb0ec;
     }
   }
   .services__item {
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 160px;
+    text-align: center;
+    color: #7c7c7c;
+    .services__pic {
+      margin-bottom: 50px;
+      min-height: 110px;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.5);
+        transition: 0.3s;
+      }
+    }
     .servises__subTitle {
       font-size: 18px;
       color: #494949;
       font-weight: 700;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    p {
+      max-width: 310px;
+      width: 100%;
+      min-height: 82px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 26px;
     }
   }
 }
