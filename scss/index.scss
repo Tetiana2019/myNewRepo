@@ -9,7 +9,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: #494949;
 }
 .container {
   max-width: 1600px;
@@ -384,6 +384,34 @@ a {
     margin-top: 30px;
     margin-left: 70px;
     max-width: 261px;
+    width: 100%;
+    min-height: 113px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #7c7c7c;
+    font-weight: 500;
+  }
+}
+.resourse {
+  padding: 50px 0 60px 0;
+  .resourse__title {
+    font-size: 22px;
+    color: #7c7c7c;
+  }
+  .resourse__subTitle {
+    font-size: 32px;
+  }
+  .resourse__text {
+    max-width: 463px;
+    width: 100%;
+    min-height: 82px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7c7c7c;
+    font-weight: 500;
+  }
+  .resourse__desc {
+    max-width: 445px;
     width: 100%;
     min-height: 113px;
     font-size: 14px;
