@@ -10,7 +10,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #fff;
-  min-height: 100vh;
 }
 .container {
   max-width: 1600px;
@@ -18,6 +17,7 @@ body {
   padding: 0 230px;
   margin: 0 auto;
 }
+
 h2 {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
@@ -35,6 +35,18 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    top: 50px;
+    background: rgba(0, 0, 0, 0.15);
+    background-color: #2eb0ec;
+  }
 }
 ul {
   list-style: none;
@@ -173,7 +185,7 @@ a {
   padding: 100px 0;
   .services__title {
     position: relative;
-    &::after {
+    /*&::after {
       content: "";
       position: absolute;
       left: 50%;
@@ -183,7 +195,7 @@ a {
       top: 75px;
       background: rgba(0, 0, 0, 0.15);
       background-color: #2eb0ec;
-    }
+    }*/
   }
   .services__item {
     margin-top: 90px;
@@ -214,5 +226,169 @@ a {
       font-weight: 500;
       line-height: 26px;
     }
+  }
+}
+.unlimited {
+  padding: 35px 0;
+  background: url(../img/featuresBG.jpg) no-repeat center/cover;
+  position: relative;
+  .unlimited__pic {
+    position: absolute;
+    left: -445px;
+    top: 120px;
+  }
+  .unlimited__back {
+    position: absolute;
+    z-index: 0;
+  }
+  .unlimited__title {
+    font-size: 22px;
+    color: #7c7c7c;
+    margin-top: 130px;
+    font-weight: 600;
+  }
+  .unlimited__subtitle {
+    font-size: 32px;
+    color: #494949;
+  }
+  .unlimited__text {
+    width: 540px;
+    height: 82px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7c7c7c;
+    font-weight: 500;
+  }
+  .features {
+    margin: 25px 0 30px 0;
+  }
+  .features__item {
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #7c7c7c;
+    font-weight: 500;
+    position: relative;
+    &::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #66d4f4;
+      border: 5px solid #c8ebf5;
+      display: block;
+      left: 0;
+      top: 4px;
+      position: absolute;
+    }
+  }
+  .unlimited__btn {
+    margin-bottom: 180px;
+    .readMore__btn {
+      cursor: pointer;
+      width: 160px;
+      height: 50px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 50px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      border: none;
+      box-shadow: 0 5px 2.5px rgba(0, 0, 0, 0.15);
+      background: #66d4f4;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #3e3e3e;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+// .features {
+//   background: url(../img/featuresBG.jpg) no-repeat center/cover;
+//   min-height: 850px;
+//   position: relative;
+//   padding: 100px 0;
+//   .iPad__pic {
+//     position: absolute;
+//     left: -580px;
+//     top: 50px;
+//   }
+//   .iPhone__pic {
+//     position: absolute;
+//     top: 144px;
+//     left: -3px;
+//   }
+//   .features__item {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin-left: 50px;
+//     .features__title {
+//       font-size: 22px;
+//       color: #494949;
+//     }
+//     .features__subTitle {
+//       font-size: 32px;
+//       color: #494949;
+//     }
+//     .features__text {
+//       width: 540px;
+//       height: 82px;
+//       font-size: 20px;
+//       line-height: 32px;
+//       color: #7c7c7c;
+//       font-weight: 500;
+//       margin-bottom: 35px;
+//     }
+//     /* .features__list {
+//       margin-top: 70px;
+//     }
+//     &li a {
+//       width: 540px;
+//       height: 12px;
+//       font-size: 14px;
+//       line-height: 30px;
+//       color: #7c7c7c;
+//       font-weight: 500;
+//       margin-top: 70px;
+//     }*/
+//   }
+// }
+.other {
+  padding: 60px 0 120px 0;
+  .others__item {
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+  .others__title img {
+    margin-right: 25px;
+    max-width: 50px;
+    min-height: 50px;
+  }
+  .others__title h6 {
+    font-size: 18px;
+    color: #494949;
+    font-weight: 600;
+  }
+  .others__desc {
+    margin-top: 30px;
+    margin-left: 70px;
+    max-width: 261px;
+    width: 100%;
+    min-height: 113px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #7c7c7c;
+    font-weight: 500;
   }
 }
