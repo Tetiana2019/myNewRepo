@@ -56,11 +56,8 @@ a {
 }
 .header {
   background: url(../img/headerBG.png) no-repeat center/cover;
-  padding: 60px 0;
   position: relative;
   .header__picHeadphones {
-    /*width: 40px;
-    height: 1px;*/
     position: absolute;
     top: -27px;
     left: -416px;
@@ -76,6 +73,7 @@ a {
     bottom: 0;
   }
   .header__nav {
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,58 +310,6 @@ a {
   }
 }
 
-// .features {
-//   background: url(../img/featuresBG.jpg) no-repeat center/cover;
-//   min-height: 850px;
-//   position: relative;
-//   padding: 100px 0;
-//   .iPad__pic {
-//     position: absolute;
-//     left: -580px;
-//     top: 50px;
-//   }
-//   .iPhone__pic {
-//     position: absolute;
-//     top: 144px;
-//     left: -3px;
-//   }
-//   .features__item {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin-left: 50px;
-//     .features__title {
-//       font-size: 22px;
-//       color: #494949;
-//     }
-//     .features__subTitle {
-//       font-size: 32px;
-//       color: #494949;
-//     }
-//     .features__text {
-//       width: 540px;
-//       height: 82px;
-//       font-size: 20px;
-//       line-height: 32px;
-//       color: #7c7c7c;
-//       font-weight: 500;
-//       margin-bottom: 35px;
-//     }
-//     /* .features__list {
-//       margin-top: 70px;
-//     }
-//     &li a {
-//       width: 540px;
-//       height: 12px;
-//       font-size: 14px;
-//       line-height: 30px;
-//       color: #7c7c7c;
-//       font-weight: 500;
-//       margin-top: 70px;
-//     }*/
-//   }
-// }
 .other {
   padding: 60px 0 120px 0;
   .others__item {

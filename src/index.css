@@ -65,13 +65,10 @@ a {
 
 .header {
   background: url(../img/headerBG.png) no-repeat center/cover;
-  padding: 60px 0;
   position: relative;
 }
 
 .header .header__picHeadphones {
-  /*width: 40px;
-    height: 1px;*/
   position: absolute;
   top: -27px;
   left: -416px;
@@ -90,6 +87,7 @@ a {
 }
 
 .header .header__nav {
+  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
